@@ -1,0 +1,65 @@
+-----------------------------
+
+Security & Environments
+
+-----------------------------
+
+Đảm bảo KHÔNG BAO GIỜ push file .env lên Git
+
+.env
+.env.*
+!.env.example
+
+Virtual Environments
+
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+-----------------------------
+
+Python Cache & Byte-compiled
+
+-----------------------------
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+
+-----------------------------
+
+Streamlit
+
+-----------------------------
+
+.streamlit/
+
+-----------------------------
+
+IDEs and Editors
+
+-----------------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+-----------------------------
+
+OS Generated Files
+
+-----------------------------
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

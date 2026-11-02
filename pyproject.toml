@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "servicenow-code-reviewer"
+version = "0.1.0"
+description = "ServiceNow Script Include AI Reviewer using Gemini"
+authors = ["Your Name <you@email.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.32.0"
+google-genai = "^0.1.0"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
